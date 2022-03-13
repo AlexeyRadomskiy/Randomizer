@@ -41,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CA3432B27DE349A00A06801 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6CEF9A8327DCC80100A52854 /* RandomNumber.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6CEF9A5D27DCC11B00A52854 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				6CEF9A7E27DCC17100A52854 /* ViewControllers */,
+				6CA3432B27DE349A00A06801 /* Models */,
 				6CEF9A7F27DCC18300A52854 /* Storyboards */,
 				6CEF9A8027DCC1B400A52854 /* Resources */,
 				6CEF9A7D27DCC15400A52854 /* App */,
@@ -83,7 +92,6 @@
 			children = (
 				6CEF9A6D27DCC11C00A52854 /* MainViewController.swift */,
 				6CEF9A8127DCC7B000A52854 /* SettingsViewController.swift */,
-				6CEF9A8327DCC80100A52854 /* RandomNumber.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -341,7 +349,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -369,7 +377,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.Randomizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
